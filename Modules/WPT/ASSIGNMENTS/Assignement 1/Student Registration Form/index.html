@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Student Registration Form</h1>
+        <form action="submit.php" method="get">
+            <label for="fname">FIRST NAME</label>
+            <input type="text" name="fname" id="fname">
+            <label for="">(max 30 characters a-z and A-Z)</label><br>
+
+            <label for="lastname">LAST NAME </label>
+            <input type="text" name="lastname" id="lastname">
+            <label for="">(max 30 characters a-z and A-Z)</label><br>
+
+            <label for="birthday">DATE OF BIRTH: </label>
+            <input type="date" id="birthday" name="birthday">
+
+            <label for="email">EMAIL ID</label>
+            <input type="text" name="email" id="email">
+
+            <label for="mobile">MOBILE NUMBER</label>
+            <input type="number" name="mobile" id="mobile">
+            <label for="">(10 digit number)</label><br>
+
+            <label for="fname">ADDRESS</label>
+            <input type="text" name="fname" id="fname">
+
+            <label for="gender">GENDER</label>
+            <div class="flex-container">
+                <div>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">FEMALE</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">MALE</label>
+                </div>
+            </div>
+<br>
+            <label for="hobbies">HOBBIES</label>
+            <div class="flex-container">
+                <div>
+                    <input type="checkbox" name="hobbies" value="drawing" id="drawing">
+                    <label for="drawing">Drawing</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="hobbies" value="singing" id="singing">
+                    <label for="singing">Singing</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="hobbies" value="dancing" id="dancing">
+                    <label for="dancing">Dancing</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="hobbies" value="sketching" id="sketching">
+                    <label for="sketching">Sketching</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="hobbies" value="others" id="others">
+                    <label for="others">Others</label>
+                </div>
+                <div>
+                    <input type="text" name="other_hobby" id="other_hobby">
+                </div>
+            </div>
+
+            <label for="">COURSES APPLIED FOR</label>
+            <div class="flex-container">
+                <div>
+                    <input type="radio" name="course" value="BCA" id="bca">
+                    <label for="bca">BCA</label>
+                </div>
+                <div>
+                    <input type="radio" name="course" value="BCom" id="bcom">
+                    <label for="bcom">B.Com</label>
+                </div>
+                <div>
+                    <input type="radio" name="course" value="BSc" id="bsc">
+                    <label for="bsc">B.Sc</label>
+                </div>
+                <div>
+                    <input type="radio" name="course" value="BA" id="ba">
+                    <label for="ba">B.A.</label>
+                </div>
+            </div>
+            <br>
+            <label for="">QUALIFICATION</label>
+            <table>
+                <tr>
+                    <th>Sr. No.</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text" name="board_x" id="board_x"></td>
+                    <td><input type="number" name="percentage_x" id="percentage_x"></td>
+                    <td><input type="number" name="year_x" id="year_x"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td><input type="text" name="board_xii" id="board_xii"></td>
+                    <td><input type="number" name="percentage_xii" id="percentage_xii"></td>
+                    <td><input type="number" name="year_xii" id="year_xii"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text" name="board_grad" id="board_grad"></td>
+                    <td><input type="number" name="percentage_grad" id="percentage_grad"></td>
+                    <td><input type="number" name="year_grad" id="year_grad"></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text" name="board_masters" id="board_masters"></td>
+                    <td><input type="number" name="percentage_masters" id="percentage_masters"></td>
+                    <td><input type="number" name="year_masters" id="year_masters"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>(10 char max)</td>
+                    <td>(up to 2 decimal)</td>
+                    <td></td>
+                </tr>
+                
+            </table>
+            
+            <br><br>
+
+            <!-- <button type="submit">Submit</button>
+            <button type="reset">Reset</button> -->
+        </form>
+        <button type="submit" id="submit">Submit</button>
+        <button type="reset" id="reset">Reset</button>
+    </div>
+</body>
+</html>
