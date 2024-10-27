@@ -1,0 +1,21 @@
+p{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.hovereffect{
+    background-color: black;
+
+}
+
+#para1{
+    color: blue;
+    cursor: pointer;
+}
+#para2{
+    color: white;
+}
+span{
+    color: black;
+}
