@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.resume {
+    width: 800px;
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 250px;
+    /* background-color: #2f3a4f; */
+    /* background-color: #023047; */
+    /* background-color: #e07a5f; */
+    background-color: #3d405b;
+    color: white;
+    padding: 30px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h1 {
+    font-size: 22px;
+}
+
+.profile h2 {
+    font-size: 16px;
+    color: #ddd;
+}
+
+.contact, .education, .skills, .languages {
+    margin-bottom: 20px;
+}
+
+.contact h3, .education h3, .skills h3, .languages h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.contact p, .education p, .skills ul, .languages ul {
+    font-size: 14px;
+}
+
+.skills ul, .languages ul {
+    list-style-type: none;
+}
+
+.skills ul li, .languages ul li {
+    margin-bottom: 5px;
+}
+
+.main-content {
+    width: calc(100% - 250px);
+    padding: 30px;
+}
+
+.main-content h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.profile-summary {
+    margin-bottom: 20px;
+}
+
+.profile-summary h3{
+    background-color: #e5e5e5;
+}
+.profile-summary p {
+    font-size: 14px;
+    line-height: 1.6;
+    
+}
+.experience h3{
+    background-color: #e5e5e5;
+}
+
+.experience .job {
+    margin-bottom: 20px;
+    
+}
+
+.experience .job h4 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.experience .job p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.experience .job ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.experience .job ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+
+.projects h3{
+    background-color: #e5e5e5;
+}
+.projects .job {
+    margin-bottom: 20px;
+}
+
+.projects .job h4 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.projects .job p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.projects .job ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.projects .job ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
